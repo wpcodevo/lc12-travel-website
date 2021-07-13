@@ -5,29 +5,361 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ======== Favicon ======= -->
-    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- ======== Slider Js ======= -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- ======== AOS ======= -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    />
+
     <!-- ======== StyleSheet ======= -->
     <link rel="stylesheet" href="css/styles.css" />
     <title>Travel Website</title>
   </head>
   <body>
+    <!-- Preloader -->
+    <div class="loader">
+      <img src="./images/preloader.gif" alt="" />
+    </div>
+    <!-- header -->
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="./images/logo.png" />
+            </a>
+          </div>
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#service" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item">
+              <a href="#trips" class="nav-link">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <a href="#" class="btn sign-up">Sign Up</a>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero -->
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/pic-3.jpg" alt="hero image" />
+          </div>
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="./images/hero-2.m4v" type="video/mp4" />
+              <source src="./images/hero-2.webm" type="video/webm" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/hero-3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/pic-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>
+          Get Ready for <br />
+          Lifetime Journey
+        </h1>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevron-left swiper-icon"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevron-right swiper-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- About Section -->
+      <section class="section about" id="about">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>About Us</h1>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              modi, excepturi voluptatum eligendi officiis rerum quas possimus
+              ad ducimus distinctio maxime totam dicta deleniti esse minus
+              cumque placeat alias accusamus magnam omnis a illum nihil
+              inventore. Illum molestiae animi quasi fugiat quia, blanditiis,
+              vero officiis laboriosam ad possimus est? Quod?
+            </p>
+            <a href="#" class="btn">Know more</a>
+          </div>
+          <div class="col">
+            <div class="swiper-container slider-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/hero-1.jpg" alt="hero image" />
+                </div>
+                <div class="swiper-slide">
+                  <video src="./images/hero-2.m4v" muted loop autoplay></video>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/hero-3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <i class="bx bx-chevron-right swiper-icon"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="bx bx-chevron-left swiper-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Service Section -->
+      <section class="section service" id="service">
+        <div class="row container">
+          <img src="./images/pic-1.jpg" alt="" />
+          <div class="col">
+            <div class="title">
+              <h1>How to Spend a Weekend?</h1>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+              distinctio libero ducimus accusantium autem! Reprehenderit iste
+              officia autem nemo earum porro molestiae maxime error unde,
+              repellendus veritatis aperiam, culpa aspernatur tenetur ad. Quis
+              cum omnis consequatur at odio quibusdam eaque quas! Itaque
+              mollitia, molestias quos vitae saepe nam adipisci corporis?
+            </p>
+            <div class="d-flex">
+              <h2>15 Days Tour</h2>
+              <div class="rating">
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+              </div>
+            </div>
+            <div class="d-flex">
+              <h3 class="price">$7999.99</h3>
+              <a href="" class="btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- discount Section -->
+      <section class="section discount">
+        <div class="overlay">
+          <video class="video">
+            <source src="./images/hero-2.m4v" type="video/mp4" />
+            <source src="./images/hero-2.webm" type="video/webm" />
+          </video>
+        </div>
+        <div class="content">
+          <h1>
+            Get 15% Off On Tour <br />
+            Next Travel
+          </h1>
+          <a href="#" class="btn">Explore the Tour</a>
+          <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+        </div>
+      </section>
+
+      <!-- Trip Section -->
+      <section class="section trip" id="trips">
+        <div class="title">
+          <h1>
+            Plan Your <br />
+            Trip With Us
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            deserunt quaerat quasi earum veniam. Accusamus velit adipisci quidem
+            obcaecati molestiae.
+          </p>
+        </div>
+
+        <div class="row container">
+          <div class="swiper-container slider-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/vert-1.jpg" alt="hero image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="custom-next d-flex">
+            <i class="bx bx-chevron-right swiper-icon"></i>
+          </div>
+          <div class="custom-prev d-flex">
+            <i class="bx bx-chevron-left swiper-icon"></i>
+          </div>
+          <div class="custom-pagination d-flex"></div>
+        </div>
+      </section>
+
+      <!-- More Section -->
+      <section class="section more">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>
+                More Places for <br />
+                Your Next Travel
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur enim iste autem laboriosam distinctio!
+                Reprehenderit.
+              </p>
+            </div>
+            <div class="tours">
+              <div class="box">
+                <img src="./images/pic-2.jpg" alt="" />
+                <h3>Visit to Bali</h3>
+                <h4>$6000</h4>
+              </div>
+              <div class="box">
+                <img src="./images/pic-3.jpg" alt="" />
+                <h3>Visit to Russia</h3>
+                <h4>$8000</h4>
+              </div>
+            </div>
+            <a href="#" class="btn">Explore more tours now</a>
+          </div>
+          <div class="col">
+            <img src="./images/pic-1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- NewsLetter Section -->
+      <section class="section newsletter">
+        <div class="row container">
+          <div class="col">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              laborum fugiat, voluptatem eligendi dolorum distinctio.
+            </p>
+          </div>
+          <form class="form">
+            <div>
+              <input type="email" placeholder="Email" />
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact" id="contact">
+        <div class="title">
+          <h1>Contact Us</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            quaerat repellendus quae laudantium porro sunt consequatur eaque
+            fugiat expedita provident.
+          </p>
+        </div>
+
+        <div class="location container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151986.73738218265!2d-2.3635458403975003!3d53.47216354441132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester%2C%20UK!5e0!3m2!1sen!2sgh!4v1626192589397!5m2!1sen!2sgh"
+            width="600"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <h3>Company</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Learning Center</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Partner With Us</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <img src="./images/pic-1.jpg" alt="" />
+          <img src="./images/pic-1.jpg" alt="" />
+          <img src="./images/pic-1.jpg" alt="" />
+          <img src="./images/pic-1.jpg" alt="" />
+        </div>
+      </div>
+    </footer>
+
     <!-- ======== SwiperJS ======= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
-    <!-- ======== Gsap ======= -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
-    <!-- ======== AOS ======= -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
     <!-- ======== SliderJS ======= -->
     <script src="js/slider.js"></script>
     <!-- ======== IndexJS ======= -->
