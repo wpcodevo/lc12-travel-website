@@ -72,7 +72,7 @@ Array.from(links).map((link) => {
 
 // Scroll Reveal
 
-const scroll = ScrollReveal({
+const scrolls = ScrollReveal({
   distance: "100px",
   duration: 2500,
   reset: true,
