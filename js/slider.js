@@ -1,8 +1,8 @@
 const swiper1 = new Swiper(".slider-1", {
-  // autoplay: {
-  //   delay: 3500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
   loop: true,
   navigation: {
     nextEl: ".swiper-next",
