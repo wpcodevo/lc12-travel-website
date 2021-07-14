@@ -75,6 +75,7 @@ video {
 .section {
   margin: 5rem 0;
   padding: 10rem 0 5rem;
+  overflow: hidden;
 }
 
 .title {
@@ -597,6 +598,11 @@ video {
   margin-right: 10px;
 }
 
+.trip .explore {
+  text-align: center;
+  margin-top: 8rem;
+}
+
 @media (max-width: 1200px) {
   .custom-next,
   .custom-prev {
@@ -658,6 +664,10 @@ video {
 
 .more .tours h3 {
   margin: 1rem 0;
+}
+
+.more img {
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
