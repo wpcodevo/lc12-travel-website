@@ -2,9 +2,14 @@
 /* =========== Browser Reset ============ */
 :root {
   /* Color Variables */
-  --primary: #ecb90d;
+  --primary: #ffc400;
   --text-1: #0f2341;
   --text-2: #a9a9a9;
+  --white: #fff;
+  --shadow-300: 0 5px 5px rgba(0, 0, 0, 0.3);
+  --shadow-500: 0 5px 5px rgba(0, 0, 0, 0.5);
+  --transition-300: all 300ms ease-in-out;
+  --transition-500: all 500ms ease-in-out;
 }
 /* =========== Custom Classes ============ */
 /* =========== Navigation ============ */
